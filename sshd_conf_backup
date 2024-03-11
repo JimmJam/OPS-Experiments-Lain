@@ -1,0 +1,14 @@
+# Change the default port
+Port 2211
+
+# Authentication:
+LoginGraceTime 1m
+PermitRootLogin no
+MaxAuthTries 6
+MaxSessions 10
+
+# To disable tunneled clear text passwords, change to no here!
+PasswordAuthentication no
+X11Forwarding no
+PrintMotd no
+TCPKeepAlive no
